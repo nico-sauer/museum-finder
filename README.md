@@ -1,0 +1,1 @@
+This is an API to help find museums to visit in a given city.

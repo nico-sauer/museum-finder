@@ -1,0 +1,11 @@
+asgiref==3.9.1
+Django==5.2.5
+django-autoslug==1.9.9
+django-filter==25.1
+django-multiselectfield==1.0.1
+djangorestframework==3.16.1
+djangorestframework_simplejwt==5.5.1
+drf-standardized-errors==0.15.0
+isort==6.0.1
+PyJWT==2.10.1
+sqlparse==0.5.3

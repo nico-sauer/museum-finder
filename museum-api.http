@@ -1,0 +1,24 @@
+GET http://127.0.0.1:8000/museums/ HTTP/1.1 
+
+###
+
+GET http://127.0.0.1:8000/admin-access/ HTT
+
+{
+    "username": "admin",
+    "password":"pass123"
+}
+
+POST http://127.0.0.1:8000/admin_access/ HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzU2NzQyMTQ4LCJpYXQiOjE3NTY3NDE4NDgsImp0aSI6ImZiYjEyZTAzYmI5ZTQ3MGNiNGI2Y2UxMmJlOWFmOWM0IiwidXNlcl9pZCI6IjEifQ.2BdtZFPSE7Rerb3USH0z4J81v0gyYM3HAZ8yIgRKsSg
+{
+    "name": "Museum Ludwig",
+    "category": "Art",
+    "city": "Cologne",
+    "description": "Museum Ludwig, located in Cologne, Germany, houses a collection of modern art. It includes works from Pop Art, Abstract and Surrealism, and has one of the largest Picasso collections in Europe. It holds many works by Andy Warhol and Roy Lichtenstein.",
+    "website": "https://www.museum-ludwig.de/en/home"
+}
+
+
+###
