@@ -1,6 +1,7 @@
 from django.urls import include, path
 from rest_framework.routers import DefaultRouter
 
+
 from . import views
 
 urlpatterns = [
@@ -10,5 +11,4 @@ urlpatterns = [
 
 router = DefaultRouter()
 router.register("admin-access", views.MuseumAdminViewSet)
-# router.register("city", views.MuseumByCityList, basename='city')
 urlpatterns += router.urls
