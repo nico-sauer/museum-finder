@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'finder',
-    'museums',
+    #'museums',
     'multiselectfield',
     'django_filters',
     'rest_framework.authtoken',
